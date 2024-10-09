@@ -1,5 +1,6 @@
-# 项目简介
+# 项目简介(Introduction)
 本项目为基于Paillier库(ophelib)设计的paillier打包下点积,矩阵乘法,以及卷积操作的实现.
+This project is an implementation of dot product, matrix multiplication, and convolution operations under the paillier package designed based on ophelib. Please refer to the paper “VPiP: Values Packing in Paillier for Communication Efficient Oblivious Linear Computations” for details.
 
 本项目分为4部分:
 - paillier: 一个ophelib::paillierFast的派生类,是所有计算操作的基础
