@@ -26,14 +26,14 @@ Note: `点积`和`矩阵乘法`都包含3种针对不同明文数据类型的优
 编译工具的安装请直接google/百度,或者参考博客:https://blog.csdn.net/yvhqbat/article/details/50853196
 
 ### 安装OPHELib
-OPHELib库的按照github上OPHELib项目的build文档直接安装. 
+OPHELib库的安装请按照github上OPHELib项目的build文档直接安装. 
 
 ## 运行
 在完成准备工作后,执行以下命令
 
 ```
-git clone http://code.oppoer.me/S9047741/paillier_atomic.git
-cd paillier_atomic
+git clone https://github.com/nuaa-wwbin/VPiP.git
+cd VPiP
 mkdir build && cd build
 cmake ..
 make -j8
